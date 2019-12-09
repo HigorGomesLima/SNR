@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Sistema de Notas</title>
 </head>
 <body>
@@ -50,7 +51,7 @@
             ,["951838","YASMIN ABBAS AWALE"]];
             set_aluno('1',$lista_alunos);
             */
-            set_zero();
+            get_turma_disciplina('6-001','Matematica');
     ?>
 </body>
 </html>
