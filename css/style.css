@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.input_nota{
+    height: 2em;
+    width: 8em;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}
