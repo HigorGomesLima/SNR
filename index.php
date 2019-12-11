@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Sistema de Notas</h1>
+<header>
+            
+            <div id="top">
+                <img src="img/marca.png">
+                <h2>ESCOLA SESI CAMPINAS</h2>
+                <h4>PLANILHA DE NOTAS DE RECUPERAÇÃO</h4>
+            </div>
+
+        </header>
+        <main>
     <form action="listar.php" method="POST">
     <label>Nome Docente
     <input type='text' class="form-control" name='docente'></label>
@@ -56,7 +65,7 @@
     </label>
     <button class='btn btn-primary' type="submit">Carregar</button>
     </form>
-
+    </main>
     <script src="js/jquery.js"></script>
 </body>
 </html>

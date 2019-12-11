@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Sistema de Notas</h1>
+<header>
+            <div id="top">
+                <img src="img/marca.png">
+                <h2>ESCOLA SESI CAMPINAS</h2>
+                <h4>PLANILHA DE NOTAS DE RECUPERAÇÃO</h4>
+            </div>
+        </header>
+        <main>
     <?php
         include "crud.php";
 
@@ -21,6 +28,7 @@
         echo "<a>Salvo com sucesso!</a>";
         echo "<a href='index.php'>Voltar</a>";
     ?>
+    </main>
     <script src="js/jquery.js"></script>
 </body>
 </html>
